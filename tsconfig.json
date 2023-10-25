@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "DOM",
+      "ESNext"
+    ],
+    "module": "CommonJS",
+    "rootDir": "src",
+    "outDir": "lib",
+    "strict": true,
+    "target": "ES2018"
+  }
+}

@@ -1,0 +1,20 @@
+.oe-code-block-action-bar {
+  margin-left: -16px;
+}
+
+.oe-code-block-action-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  margin: 6px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: var(--code-radius);
+  font-size: var(--font-ui-smaller);
+  font-family: var(--font-interface);
+}
+
+.oe-code-block-action-button:hover {
+  background-color: var(--background-modifier-hover);
+}

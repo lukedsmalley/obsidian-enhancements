@@ -1,0 +1,30 @@
+{
+  "name": "obsidian-enhancements",
+  "version": "1.0.0",
+  "description": "Obsidian enhancements plugin",
+  "main": "main.js",
+  "scripts": {
+    "prepare": "husky install",
+    "build": "npx tsc && npx rollup -c rollup.config.mjs"
+  },
+  "keywords": [],
+  "author": "lukedsmalley",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@babel/types": "^7.23.0",
+    "@codemirror/language": "^6.9.1",
+    "@codemirror/state": "^6.2.1",
+    "@codemirror/view": "^6.21.3",
+    "@rollup/plugin-commonjs": "^25.0.5",
+    "@rollup/plugin-node-resolve": "^15.2.2",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@types/node": "^20.8.2",
+    "husky": "^8.0.3",
+    "obsidian": "^1.4.11",
+    "rollup": "^4.0.2",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.23.0"
+  }
+}
